@@ -1,0 +1,108 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url("/backgroundImage.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ font-size: 2rem;
+ 
+}
+
+#logoSection{
+ width: 40%;
+ min-height:100vh;
+}
+
+#dataSection{
+ width: 60%;
+ min-height: 100vh;
+ background: #EFF0F6
+}
+
+#logoSection div{
+  background: #000;
+  opacity: .5;
+  margin-top: 400px;
+  color: #fff;
+}
+
+#logoSection div span{
+  margin-left:110px;
+  font-size: 3rem
+}
+
+#logoSection div span img{
+  height: 50px;
+  width: 50px;
+  background: transparent
+}
+
+#logoSection div span #title{
+  font-size: 3rem
+}
+
+input{
+  display: block;
+}
+
+#dataSelection{
+  display: grid;
+}
+
+#introText{
+  background: #E2E3ED;
+  padding:23px 10px 30px 5px;
+}
+#introText #text3{
+  margin: 15px 0;
+}
+#formData{
+  
+}
+#formData form .form{
+  box-shadow: 0 0 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+#formData form input{
+  padding: 10px 3px 0 3px;
+  margin-bottom: 10px;
+  
+}
+
+#formData form input:valid{
+  border: 1px solid blue;
+}
+
+
+
+#formData form input:invalid{
+  border: 1px solid red;
+}
+
+
+#formData form input:hover{
+  border: 1px solid blue;
+}
+
+#formData form button{
+  margin:10px 0 10px 8px;
+  padding:10px 20px;
+  color: #fff;
+  background: #26863C;
+}
+
+#link{
+  color:#26863C;
+  text-decoration: none;
+}
